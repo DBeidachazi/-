@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "互联网新时代概念象棋",
-  "usingComponents": {
-    "pinazi-game-chinese-chess": "../../uni_modules/pinazi-game-chinese-chess/components/pinazi-game-chinese-chess/pinazi-game-chinese-chess"
-  }
-}
