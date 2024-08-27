@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "usingComponents": {
+    "pinazi-game-chinese-chess": "../../uni_modules/pinazi-game-chinese-chess/components/pinazi-game-chinese-chess/pinazi-game-chinese-chess"
+  }
+}

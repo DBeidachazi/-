@@ -1,0 +1,123 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.pnz_chinese_chess_wrap.data-v-1f92a923 {
+  font-family: "楷体";
+  text-align: center;
+  overflow: auto;
+  box-sizing: border-box;
+}
+.pnz_panel_wrap.data-v-1f92a923 {
+  display: inline-flex;
+  border: 2px solid #999;
+  flex-direction: column;
+  box-sizing: border-box;
+  position: relative;
+  background: #eee;
+}
+.single_line.data-v-1f92a923 {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.single_cell.data-v-1f92a923 {
+  position: relative;
+  border: 1px solid #bbb;
+  box-sizing: border-box;
+}
+.single_cell.shi_bias.data-v-1f92a923:before {
+  content: "";
+  position: absolute;
+  left: -50%;
+  top: 100%;
+  width: 300%;
+  transform: rotate(45deg);
+  transform-origin: center;
+  height: 1px;
+  overflow: hidden;
+  background-color: #bbb;
+}
+.single_cell.shi_bias.data-v-1f92a923:after {
+  content: "";
+  position: absolute;
+  left: -50%;
+  top: 100%;
+  width: 300%;
+  transform: rotate(-45deg);
+  transform-origin: center;
+  height: 1px;
+  overflow: hidden;
+  background-color: #bbb;
+}
+.panel_center.data-v-1f92a923 {
+  font-weight: bold;
+  color: #555;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.single_pawn_base.data-v-1f92a923 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  box-sizing: border-box;
+  border: #4e3817 double 6px;
+  background-color: #c0956a;
+  margin: auto;
+  text-align: center;
+  box-shadow: 2px 3px 2px black;
+}
+.single_pawn_base.none.data-v-1f92a923 {
+  display: none;
+}
+.single_pawn_base.black.data-v-1f92a923 {
+  color: #000;
+}
+.single_pawn_base.red.data-v-1f92a923 {
+  color: #aa0000;
+  border-color: #aa0000;
+}
+.single_pawn_base.selected.data-v-1f92a923 {
+  outline: 5px solid yellowgreen;
+}
+.single_pawn_base.target_blink.none.data-v-1f92a923 {
+  display: block;
+  border: none;
+  left: 0;
+  transform: scale(0.3);
+  background: red;
+}
+.single_pawn_base.target_blink.data-v-1f92a923:before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  display: block;
+  position: relative;
+  border: none;
+  left: 0;
+  background: red;
+}
