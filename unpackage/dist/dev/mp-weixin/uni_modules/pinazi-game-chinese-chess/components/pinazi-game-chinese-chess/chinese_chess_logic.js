@@ -36,6 +36,15 @@ var codePawnTextMap = {
   p: "急",
   z: "对"
 };
+var codePawnTextMap2 = {
+  c: "盒",
+  m: "批",
+  x: "寄",
+  s: "乐",
+  j: "赢",
+  p: "麻",
+  z: "退"
+};
 var chinese_chess_logic = {
   panel: {},
   status_const: {
@@ -118,7 +127,7 @@ var chinese_chess_logic = {
       var code = code_str[1];
       dest_obj = Object.assign(dest_obj, {
         status: is_rival ? this.status_const.rival : this.status_const.me,
-        text: codePawnTextMap[code],
+        text: is_rival ? codePawnTextMap2[code] : codePawnTextMap[code],
         code,
         num,
         is_rival

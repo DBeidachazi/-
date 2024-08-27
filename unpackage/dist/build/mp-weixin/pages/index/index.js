@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js"),o={data:()=>({title:"Hello"}),onLoad(){},methods:{}};if(!Array){e.resolveComponent("pinazi-game-chinese-chess")()}Math;const t=e._export_sfc(o,[["render",function(e,o,t,n,r,s){return{}}]]);wx.createPage(t);

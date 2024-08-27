@@ -8,8 +8,8 @@
                 <view v-for="(line,line_index) in 9" :key="line" class="single_line">
 <!--                    {{line}}-->
                     <view class="panel_center" :style="[panelCenterStyle()]" v-if="line_index === 4">
-                        <span>退 麻</span>
-                        <span style="transform: rotate(180deg)">盒 寄</span>
+                        <span>哈基米</span>
+                        <span style="transform: rotate(180deg)">曼 波</span>
                     </view>
                     <view v-else
                           v-for="(cell,cell_index) in 8" :key="cell_index"
@@ -175,7 +175,7 @@ export default {
                     if (res.confirm) {
                         this.restart()
                     } else if (res.cancel) {
-                        console.log('用户点击取消');
+                        this.restart()
                     }
                 }
             });

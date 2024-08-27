@@ -125,7 +125,7 @@ const _sfc_main = {
           if (res.confirm) {
             this.restart();
           } else if (res.cancel) {
-            console.log("用户点击取消");
+            this.restart();
           }
         }
       });

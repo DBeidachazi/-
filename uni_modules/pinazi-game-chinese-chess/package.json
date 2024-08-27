@@ -1,13 +1,11 @@
 {
   "id": "pinazi-game-chinese-chess",
-  "displayName": "中国象棋",
-  "version": "1.0.1",
-  "description": "经典的中国象棋的 uniapp 实现",
+  "displayName": "互联网新时代概念象棋",
+  "version": "1.0.0",
+  "description": "绷不住的互联网新时代概念象棋",
   "keywords": [
     "中国象棋",
-    "单机",
-    "",
-    "皮纳兹"
+    "单机"
 ],
   "repository": "",
   "engines": {

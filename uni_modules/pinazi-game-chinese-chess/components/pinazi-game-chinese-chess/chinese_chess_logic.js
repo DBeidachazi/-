@@ -123,7 +123,7 @@ var chinese_chess_logic = {
             var code = code_str[1];
             dest_obj = Object.assign(dest_obj,{
                 status: is_rival ? this.status_const.rival : this.status_const.me,
-                text: codePawnTextMap[code],
+                text: is_rival ? codePawnTextMap2[code] : codePawnTextMap[code],
                 code:code,
                 num:num,
                 is_rival:is_rival
